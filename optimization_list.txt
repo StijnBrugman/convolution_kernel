@@ -1,0 +1,9 @@
+Optimization
+- Loop unrolling (9 times)
+- Not calling get_global_size or get_global_id
+- changing local work group size 
+	(2,2), (4,4), (8,8)
+	(10,8), (8,10), (16, 10), (10, 12), (16, 12), (10, 10))
+- Filter input changed to a constant 
+	- attribute max constant size ????
+- division by 255
